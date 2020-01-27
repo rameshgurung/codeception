@@ -10,16 +10,13 @@ class GoogleSearchCest
 	public function tryToTest(AcceptanceTester $I)
 	{
 		$I->amOnPage('/');
-		$I->seeInTitle('The Kathmandu Post | Read online latest news and articles from Nepal');
+		$I->seeInTitle('Google');
 
         $I->fillField('q', 'Codeception');
-        $I->click('btnK');
+        $I->click('btnI');
 
-        $I->seeInCurrentUrl('/search?');
-        $I->see('PHP TESTING FOR');
-        $I->see('Codeception - PHP Testing framework');
-
-        $I->click('submit');
+        $I->seeInCurrentUrl('/');
+        $I->see('Codeception');
 	}
 
 }
