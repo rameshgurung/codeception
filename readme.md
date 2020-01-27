@@ -2,9 +2,9 @@
 1. What is Codeception?
 2. When to use?
 3. How to use it?
-4. Benefits.
-5. Limitations
-6. Misc
+4. Benefits?
+5. Limitations?
+6. How codeception works?
 
 # Detail
 1. What is Codeception?
